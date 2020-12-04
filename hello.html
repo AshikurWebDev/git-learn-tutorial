@@ -6,6 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Hello this is my repository and other main file</h2>
+    <h2 id="hello">Hello this is my repository and other main file</h2>
+
+    <script>
+        const id = document.getElementById("hello");
+
+        id.addEventListener("keyup", function(){
+            id.childElementCount();
+        });
+    </script>
 </body>
 </html>
