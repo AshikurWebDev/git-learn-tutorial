@@ -1,5 +1,4 @@
 <?php 
-
 class hello{
     public function __construct()
     {
@@ -19,4 +18,15 @@ class hello{
 
 
 
+
+class multiplication{
+    public function hi($a, $b){
+        echo "Hi everone. This is from Ashikur Rahman";
+        echo $a * $b;
+    }
+    
+}
+
+
 ?>
+
